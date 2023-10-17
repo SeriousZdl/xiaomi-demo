@@ -1,0 +1,170 @@
+
+
+body{
+    background-color: #FFFFFF;
+}
+.header{
+    display: flex;
+    align-items: center;
+   background-color: #333333;
+   height: 40px;
+   font-family: 'WeiRuanYaHei';
+   font-size: 12px;
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 1226px;
+    
+}
+.nav2{
+      display: flex;
+      justify-content: right;
+      align-items: center;
+    }
+.navul{
+    display: flex;
+    
+}
+.navul li{
+    color: #B0B0B0;
+    padding: 1px;
+} 
+.navul li a{
+    color: #B0B0B0;
+}
+
+.navul li a:hover{
+    color: #F5F5F5;
+}
+
+.shopcar{
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #424242;
+    color: #B0B0B0;
+    
+}
+
+
+.shopcar:hover{
+    background-color: #FFFFFF;
+    color: #FF6700;
+}
+.big{
+    border-bottom: #E0E0E0 1px solid;
+}
+.bigwrapper{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    width: 1226px;
+    height: 100px;
+    
+    
+}
+.logo{
+    align-self: center;
+}
+.logo a{
+    display:block;
+    width: 48px;
+    height: 48px;
+    font-size: 0;
+    background: url(../images/icon-小米归属.png);
+}
+.nav3{
+    margin-top: 13px;
+    margin-left: 103px;
+}
+.nav3 ul{
+    display: flex;
+    
+}
+.nav3 ul li{
+    color: #333333;
+    margin-right: 5px;
+}
+
+.nav3 a{
+    display: block;
+    padding: 26px 10px 38px;
+    font-size: 16px;
+}
+.search{
+    display: flex;
+    align-self: center;
+    /*flex侧轴默认拉伸（包括input） */
+    width: 296.6px;
+    height: 50px;
+    margin-left: 89px;
+    background-color: #FFFFFF;
+    border-radius: 0;
+    border: #E0E0E0 1px solid;
+    
+}
+.search:hover{
+    border: #bab9b9 1px solid;
+}
+.search input{
+    flex:1;
+    border:0;
+    /* 透明input */
+    background-color: transparent;
+    /* 去掉表单焦点框 */
+    outline: none;
+    font-size: 16px;
+    color:#333333;
+}
+.search input::placeholder{
+    font-size:16px;
+    color: #757575;
+}
+.search a{
+    /* 控制弹性盒子自己本身 */
+    align-self: center;
+    /* 父级div已经display 所以子div都是弹性盒子了，所以a标签不再是行内元素
+     已经改写为弹性盒子 所以加宽高直接生效 */
+    width: 32px;
+    height: 32px;
+    background: url(../images/放大镜.png);
+    
+}
+.banner{
+    height: 460px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+.bannerwrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1226px;
+    height: 460px;
+    background-color: #918F8F;
+
+}
+.left{
+    width: 234px;
+    height: 42px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.left a{
+    display: block;
+    height: 42px;
+    line-height: 42px;
+    padding-left: 40px;
+}
+.left a li{
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.left a:hover{
+    background-color: #FF6700;
+}
